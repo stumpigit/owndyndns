@@ -1,0 +1,12 @@
+{
+  "name": "owndyndns",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "~4.16.1"
+  }
+}

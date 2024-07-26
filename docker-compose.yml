@@ -1,0 +1,11 @@
+services:
+  app:
+    image: stumpisuter/owndyndns
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      bearer_token: ${bearer_token}
+    ports:
+      - '8334:8334'
